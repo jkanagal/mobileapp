@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SmartBlinds Application</string>
+    <string name="login_button">Login</string>
+    <string name="password_text">Password</string>
+    <string name="re_type_password_text">Re-type Password</string>
+    <string name="username_text">Username</string>
+    <string name="welcome_text">Welcome to SmartBlinds</string>
+    <string name="register_button">Register</string>
+    <string name="username_login_text">Username</string>
+    <string name="password_login_text">Password</string>
+    <string name="smartblinds_login_text">SmartBlinds Login</string>
+    <string name="loginhome_button">Login</string>
+    <string name="tempvalue_input">Tempurature Valuue</string>
+    <string name="currenttemp_text">Current Tempurature</string>
+    <string name="desiredtemp_text">Desired Tempurature</string>
+    <string name="scheduling_image">scheduling_image</string>
+    <string name="auto_image">auto_image</string>
+    <string name="manual_image">manual_image</string>
+    <string name="privacy_image">privacy_image</string>
+    <string name="features_title_text">FEATURES</string>
+    <string name="schedule_text">Schedule</string>
+    <string name="auto_mode_text">Auto Mode</string>
+    <string name="privacy_mode_text">Privacy Mode</string>
+    <string name="manual_mode_text">Manual Mode</string>
+    <string name="toggle_menu">toggle_menu</string>
+    <string name="open_blinds">open_blinds</string>
+    <string name="close_blinds">close_blinds</string>
+    <string name="open_text">OPEN</string>
+    <string name="close_text">CLOSE</string>
+    <string name="privacy_mode_pp">PRIVACY MODE</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="status">IS ON</string>
+    <string name="add_button">Add to Schedule</string>
+    <string name="insert_time_text">insert time</string>
+    <string name="time">time</string>
+    <string name="up_or_down">up or down</string>
+
+
+</resources>
