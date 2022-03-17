@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class login_page extends AppCompatActivity {
+public class register_user extends AppCompatActivity {
     Button logintohome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.activity_register_user);
 
 
         logintohome=(Button)findViewById(R.id.login_home);

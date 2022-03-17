@@ -25,7 +25,7 @@
             android:name=".schedule_page"
             android:exported="false" />
         <activity
-            android:name=".login_page"
+            android:name=".register_user"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
