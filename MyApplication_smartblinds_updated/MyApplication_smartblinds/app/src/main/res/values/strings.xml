@@ -4,13 +4,13 @@
     <string name="password_text">Password</string>
     <string name="re_type_password_text">Re-type Password</string>
     <string name="username_text">Username</string>
-    <string name="welcome_text">Welcome to SmartBlinds</string>
+    <string name="welcome_text">SmartBlinds \n User Login</string>
     <string name="register_button">Register</string>
     <string name="username_login_text">Username</string>
     <string name="password_login_text">Password</string>
-    <string name="smartblinds_login_text">SmartBlinds Login</string>
+    <string name="smartblinds_login_text">SmartBlinds \n Registration</string>
     <string name="loginhome_button">Login</string>
-    <string name="tempvalue_input">Tempurature Valuue</string>
+    <string name="tempvalue_input">Tempurature Value</string>
     <string name="currenttemp_text">Current Tempurature</string>
     <string name="desiredtemp_text">Desired Tempurature</string>
     <string name="scheduling_image">scheduling_image</string>
@@ -34,6 +34,13 @@
     <string name="insert_time_text">insert time</string>
     <string name="time">time</string>
     <string name="up_or_down">up or down</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="desired_temperature">Desired Temperature</string>
+    <string name="full_name">Full Name</string>
+    <string name="register_user">Register User</string>
 
 
 </resources>
