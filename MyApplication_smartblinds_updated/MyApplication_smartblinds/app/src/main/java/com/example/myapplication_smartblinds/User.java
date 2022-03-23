@@ -4,6 +4,7 @@ public class User {
 
     public String fullName, desiredtemp, email;
 
+
     public User(){
 
     }
@@ -12,5 +13,17 @@ public class User {
         this.fullName = fullName;
         this.email=email;
         this.desiredtemp = desiredtemp;
+    }
+
+    public String getfullName(){
+        return fullName;
+    };
+
+    public String getemail() {
+        return email;
+    }
+
+    public String getdesiredtemp() {
+        return desiredtemp;
     }
 }

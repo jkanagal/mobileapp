@@ -89,15 +89,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         progressBar.setVisibility(View.VISIBLE);
 
-        mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
-                    //redirect to homepage
-                    startActivity(new Intent(MainActivity.this, home_page.class));
-                }else {
-                    Toast.makeText(MainActivity.this, "Failed to login! check credentials...", Toast.LENGTH_LONG).show();
-                }
+        mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
+            if (task.isSuccessful()){
+                //redirect to homepage
+                startActivity(new Intent(MainActivity.this, home_page.class));
+            }else {
+                Toast.makeText(MainActivity.this, "Failed to login! check credentials...", Toast.LENGTH_LONG).show();
             }
         });
     }

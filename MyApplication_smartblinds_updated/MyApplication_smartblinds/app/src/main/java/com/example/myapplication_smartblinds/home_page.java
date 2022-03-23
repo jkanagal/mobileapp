@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 public class home_page extends AppCompatActivity {
     TextView m_img;
@@ -17,18 +18,27 @@ public class home_page extends AppCompatActivity {
     ImageView p_icon;
     TextView s_img;
     ImageView s_icon;
-
+    ImageView u_icon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
+        u_icon=(ImageView) findViewById(R.id.imageView14);
+        u_icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openUserPage();
+            }
+        });
+
         m_img=(TextView) findViewById(R.id.textView10);
         m_img.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 openManualPage();}
         });
+
         m_icon=(ImageView) findViewById(R.id.imageView11);
         m_icon.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
@@ -40,6 +50,7 @@ public class home_page extends AppCompatActivity {
             public void onClick(View view){
                 openSchedPage();}
         });
+
         s_icon=(ImageView) findViewById(R.id.imageView12);
         s_icon.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
@@ -51,6 +62,7 @@ public class home_page extends AppCompatActivity {
             public void onClick(View view){
                 openAutoPage();}
         });
+
         a_icon=(ImageView) findViewById(R.id.imageView13);
         a_icon.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
@@ -72,6 +84,11 @@ public class home_page extends AppCompatActivity {
 
 
 
+    }
+
+    private void openUserPage() {
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
     }
 
     public void openManualPage(){

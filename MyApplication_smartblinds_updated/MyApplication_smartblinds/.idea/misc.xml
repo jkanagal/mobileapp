@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/koush/Documents/capstone_mobile/mobileapp/MyApplication_smartblinds_updated/MyApplication_smartblinds/app/src/main/res/layout/activity_home_page.xml" value="0.4071557971014493" />
+        <entry key="..\:/Users/koush/Documents/capstone_mobile/mobileapp/MyApplication_smartblinds_updated/MyApplication_smartblinds/app/src/main/res/layout/activity_main.xml" value="0.4071557971014493" />
+        <entry key="..\:/Users/koush/Documents/capstone_mobile/mobileapp/MyApplication_smartblinds_updated/MyApplication_smartblinds/app/src/main/res/layout/activity_profile.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/koush/Documents/capstone_mobile/mobileapp/MyApplication_smartblinds_updated/MyApplication_smartblinds/app/src/main/res/layout/activity_register_user.xml" value="0.23385416666666667" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.491" />
         <entry key="app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.491" />
         <entry key="app/src/main/res/layout/activity_auto_page.xml" value="0.30625" />
