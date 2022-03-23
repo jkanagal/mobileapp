@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116941271794",
+    "firebase_url": "https://smartblinds-49ed8-default-rtdb.firebaseio.com",
+    "project_id": "smartblinds-49ed8",
+    "storage_bucket": "smartblinds-49ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116941271794:android:98ffb43b9c562fe066966b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication_smartblinds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116941271794-v8apfabf6mv08f26j9hg6ks5q22uudk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsftuGlhtK9cRARVdjZpBMfbMnBSDsC24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116941271794-v8apfabf6mv08f26j9hg6ks5q22uudk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

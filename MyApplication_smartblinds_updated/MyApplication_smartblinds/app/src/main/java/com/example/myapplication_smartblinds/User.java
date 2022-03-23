@@ -1,6 +1,6 @@
 package com.example.myapplication_smartblinds;
 
-public class user {
+public class User {
 
     public String fullName, desiredtemp, email;
 

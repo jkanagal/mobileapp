@@ -29,11 +29,9 @@
         android:layout_marginStart="44dp"
         android:background="#A3A0A0"
         android:backgroundTint="#FFFFFF"
-        android:hint="@string/username_text"
+        android:hint="@string/email"
         android:importantForAutofill="no"
         android:inputType="textShortMessage"
-        android:textColor="#FFFFFF"
-
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,18 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintVertical_bias="0.0" />
-    <TextView
-        android:id="@+id/forgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/forgot_password"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/loginmain"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="25dp"
-        />
+
     <TextView
         android:id="@+id/register"
         android:layout_width="wrap_content"
@@ -94,16 +81,17 @@
         android:text="@string/register"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="@id/forgotPassword"
-        app:layout_constraintLeft_toRightOf="@id/forgotPassword"
-        android:layout_marginStart="155dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginmain"
+        app:layout_constraintVertical_bias="0.089" />
+
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleLarge"
-        app:layout_centerInParent="true"
         android:visibility="gone"
         tools:ignore="MissingConstraints"
         app:layout_constraintTop_toTopOf="parent"
