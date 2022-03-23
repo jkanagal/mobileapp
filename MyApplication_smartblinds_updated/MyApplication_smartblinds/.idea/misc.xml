@@ -5,9 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.491" />
         <entry key="app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.491" />
+        <entry key="app/src/main/res/layout/activity_auto_page.xml" value="0.30625" />
         <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/layout/activity_manual_page.xml" value="0.30625" />
+        <entry key="app/src/main/res/layout/activity_privacy_page.xml" value="0.30625" />
+        <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.30625" />
+        <entry key="app/src/main/res/layout/activity_schedule_page.xml" value="0.30625" />
       </map>
     </option>
   </component>
