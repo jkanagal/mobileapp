@@ -41,6 +41,9 @@
     <string name="full_name">Full Name</string>
     <string name="register_user">Register User</string>
     <string name="email">Email</string>
+    <string name="set_time_24h_format">Set Time (24h format):</string>
+    <string name="defaultFromTime">18:00</string>
+    <string name="defaultToTime">06:00</string>
 
 
 </resources>
