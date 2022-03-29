@@ -7,44 +7,6 @@
     tools:context=".home_page">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="149dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/desiredtemp_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="147dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="80dp"
-        android:text="@string/currenttemp_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/inputtemp"
-        android:layout_width="187dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="112dp"
-        android:autofillHints="Input Tempurature"
-        android:hint="@string/tempvalue_input"
-        android:inputType=""
-        android:textColorHint="#B16262"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="408dp"
@@ -97,11 +59,10 @@
         android:id="@+id/linearLayout"
         android:layout_width="413dp"
         android:layout_height="153dp"
-        android:layout_marginTop="196dp"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
 
         <androidx.cardview.widget.CardView
             android:layout_width="175dp"
@@ -209,7 +170,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="112dp"
         android:text="@string/features_title_text"
         android:textAlignment="center"
         android:textSize="34sp"
