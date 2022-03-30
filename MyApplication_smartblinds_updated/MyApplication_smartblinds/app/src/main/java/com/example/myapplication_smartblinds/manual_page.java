@@ -14,8 +14,6 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
-import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
-
 public class manual_page extends AppCompatActivity {
 
     MemoryPersistence persistence = new MemoryPersistence();
