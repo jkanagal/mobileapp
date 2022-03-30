@@ -11,7 +11,7 @@
         android:id="@+id/openButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#8C8C8C"
         android:fontFamily="sans-serif-black"
         android:onClick="blindsUp"
         android:text="Open"
@@ -27,7 +27,7 @@
         android:id="@+id/closeButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#8C8C8C"
         android:fontFamily="sans-serif-black"
         android:onClick="blindsDown"
         android:text="Close"
@@ -51,5 +51,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

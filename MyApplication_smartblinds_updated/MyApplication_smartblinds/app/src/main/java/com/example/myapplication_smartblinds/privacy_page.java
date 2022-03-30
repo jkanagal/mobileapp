@@ -39,7 +39,8 @@ public class privacy_page extends AppCompatActivity {
                     tx3.setVisibility(View.VISIBLE);
                 }
                 else{
-                    tx3.setVisibility(View.GONE);
+                    tx3.setText("IS OFF");
+                    tx3.setVisibility(View.VISIBLE);
                 }
 
             }
